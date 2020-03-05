@@ -62,6 +62,9 @@ h2{
     z-index: 120;
     transition: all .3s linear;
 }
+.animation{
+    bottom: -25px;
+}
 /* ヘッダー */
 header{
     padding: 120px;
