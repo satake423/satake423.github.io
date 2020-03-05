@@ -47,11 +47,12 @@ $(function(){
             $(this).children("div").remove();
         });
     });
-    $(".menu-trigger").click(function(){
-        var $menuicon = $(".menu-trigger");
+    // メニュー
+    $(".trigger-bg").click(function(){
+        var $menuicon = $(".trigger-bg");
         if($menuicon.hasClass("open")){
-            $menuicon.removeClass("open");
             $("#navi-responsive").slideToggle();
+            $menuicon.removeClass("open");
         }else{
             $menuicon.addClass("open");
             $("#navi-responsive").fadeOut();
