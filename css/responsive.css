@@ -118,6 +118,7 @@
         display: block;
         margin: 0 auto;
         width: 150px;
+        top: 60px;
     }
     .logo-black{
         margin: 0 auto;
@@ -231,13 +232,15 @@
         margin-bottom: 0;
         padding-bottom: 0;
     }
+    figure{
+        position: relative;
+
+        width: 100%;
+    }
+    .banner-img figure:target .overlay,
     .flyer-img figure:target .overlay,
     .lp-img figure:target .overlay{
         display: block;
-        padding: 20px 30px 0 30px;
-    }
-    figure:target .overlay{
-        padding: 30px;
     }
     .comment{ 
         margin: 0 auto; 
@@ -245,7 +248,7 @@
         padding: 0;
     }
     .overlay img{
-        width: 100%;
+        width: 80%;
         display: block;
         margin: 20px auto 20px auto;
      }
