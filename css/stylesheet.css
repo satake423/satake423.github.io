@@ -258,6 +258,7 @@ header{
     background-color: #fff;
 }
 .banner,.flyer,.lp{
+    padding-bottom:20px;
     margin-bottom: 30px;
     border-bottom: 2px dashed rgb(165, 165, 165);
 }
