@@ -379,6 +379,22 @@ color: inherit;
     width: 100%;
     height: 100%;
 }
+.btn-link{
+    position: relative;
+    top: -10px;
+    left: 10px;
+    z-index: 100;
+}
+.btn-link a{
+    font-weight: bold;
+    position: relative;
+    color: rgba(141,67,202);
+    border: 2px solid rgba(141,67,202);
+    padding: 10px 20px;
+}
+.btn-link a:hover{
+    background-color: rgba(141,67,202,0.2);
+}
 /* お問合せ */
 .contact{
     background-color: rgba(200, 200, 200);
