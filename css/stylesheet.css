@@ -26,6 +26,9 @@ a:hover{
     margin-top: 40px;
     font-size: 30px;
 }
+.heading p{
+    font-size: 17px;
+}
 h2{
     display: inline-block;
 }
@@ -52,7 +55,7 @@ h2{
     display: inline-block;
     color: rgb(224, 224, 224);
 }
-.profile,.skill,.work,.contact{
+.profile,.skill,.work{
     position: relative;
 }
 .top-scroll{
@@ -82,7 +85,7 @@ header{
 .intro-box p{
     margin-bottom: 10px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 24px;
     color: rgba(255,255,255,0.9);
 }
 .intro-box{
@@ -125,7 +128,7 @@ header{
 	from { background-position: 0 0; }
     to { background-position: -800px 0; } 
 }
-.heading,.heading-s,.profile-item,.skill-item,.contact-item,.thumbnail{
+.heading,.heading-s,.profile-item,.skill-item,-item,.thumbnail{
     position: relative;
     z-index: 40;
 }
@@ -160,7 +163,7 @@ header{
 }
 .menu{
     position: absolute;
-    right: 10%;
+    right: 18%;
     top: 220px;
 }
 .menu li{
@@ -202,13 +205,14 @@ header{
 }
 .profile-text{
     width: 55%;
-    padding: 30px 0 0 40px;
+    padding: 0 0 0 40px;
 }
 .profile-text h3{
     font-size: 25px;
+    margin-bottom: 10px;
 }
 .profile-text p{
-    padding: 20px 0;
+    padding-bottom: 5px;
 }
 /* skill */
 .skill{
@@ -274,7 +278,7 @@ header{
     grid-template-rows: auto;
 }
 .lp-img{ 
-    grid-template-columns: 25% 25%;
+    grid-template-columns: 25% 25% 25%;
     grid-template-rows: auto;
 }
 .thumbnail{
@@ -290,7 +294,7 @@ header{
     max-width: 100%;
 }
 .lp-img .thumbnail{
-    height: 300px;
+    height: 250px;
     overflow: hidden;
 }
 .banner-img .thumbnail{
@@ -394,40 +398,6 @@ color: inherit;
 }
 .btn-link a:hover{
     background-color: rgba(141,67,202,0.2);
-}
-/* お問合せ */
-.contact{
-    background-color: rgba(200, 200, 200);
-}
-input,textarea{
-    position: relative;
-    left: -100px;
-    font-family: serif;
-    font-size: 15px;
-    margin: 0 auto;
-    width: 60%;
-    display: block;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    outline-color: #00cc0a;
-}
-input{
-    height: 20px;
-}
-.btn-submit{
-    color: #fff;
-    font-size: 20px;
-    background-color: #000;
-    border: none;
-    height: auto;
-    width: 20%;
-    margin-top: 20px;
-}
-.btn-submit:active{
-    position: relative;
-    outline: none;
-    top: 3px;
 }
 /* copyright */
 .copyright{
