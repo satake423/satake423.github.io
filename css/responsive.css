@@ -62,6 +62,7 @@
     }
     .navi{
         display: none;
+        padding-bottom: 200px;
     }
     .navi-responsive{
         top: 0;
@@ -121,7 +122,6 @@
         margin: 0 auto;
         width: 150px;
         top: 60px;
-        margin-bottom:200px;
     }
     .logo-black{
         margin: 0 auto;
@@ -267,8 +267,20 @@
         max-width: 100%;
         max-height: 50%;
     }
-    input, textarea{
+    .btn-link{
+        top: -5px;
+        left: 0;
+        right: 0;
+    }
+    .btn-link a{
+        margin: 0 auto;
+        text-align: center;
+        display: block;
         width: 80%;
+        position: relative;
+        padding: 10px 20px;
+    }
+    input, textarea{
         left: 0;
         right: 0;
     }
