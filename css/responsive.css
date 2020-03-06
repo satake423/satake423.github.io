@@ -24,6 +24,9 @@
         right: 0;
         text-align: center;
     }
+    .heading p{
+        font-size: 16px;
+    }
     .heading-s{
         text-align: center;
         font-weight: bold;
@@ -179,9 +182,13 @@
         font-size: 15px;
     }
     /* skill */
+    .skill-item{
+        padding-right:10px;
+        padding-left:10px;
+    }
     .skillbar{
         height: 10px;
-        width: 250px;
+        width: 100%;
         border: 2px solid #000;
         background-color: rgb(255, 255, 255, 0);
         margin-bottom: 20px;
@@ -212,7 +219,7 @@
     }
     .tab{
         width: 70%;
-        padding: 20px;
+        padding: 30px;
         border: 2px solid #000;
         border-radius: 10px;
     }
@@ -225,19 +232,27 @@
     .lp-img{
         margin-bottom: 20px;
     }
-    .banner-img,.flyer-img,.lp-img{
+    .banner-img,.flyer-img{
         grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+    .lp-img{
+        padding: 20px;
+        grid-template-columns: 100%;
         grid-template-rows: auto;
     }
     .thumbnail{
         padding: 5px;
         margin: 5px;
+    }
+    .lp-img .thumbnail{
+        padding: 10px;
+        margin: 10px;
         margin-bottom: 0;
         padding-bottom: 0;
     }
     figure{
         position: relative;
-
         width: 100%;
     }
     .banner-img figure:target .overlay,
@@ -268,7 +283,7 @@
         max-height: 50%;
     }
     .btn-link{
-        top: -5px;
+        top: 5px;
         left: 0;
         right: 0;
     }
@@ -279,17 +294,6 @@
         width: 80%;
         position: relative;
         padding: 10px 20px;
-    }
-    input, textarea{
-        left: 0;
-        right: 0;
-    }
-    textarea{
-        height: 100px;
-    }
-    .btn-submit{
-        width: 80%;
-        margin-top: 20px;
     }
     .copyright p{
         left: 0;
